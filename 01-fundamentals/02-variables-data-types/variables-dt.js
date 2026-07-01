@@ -1,7 +1,7 @@
 // 1. Scope differences: let vs const vs var
-let changeable = "I can change";
+let changeable = "I can change"; // block level scoping
 const permanent = "I cannot change";
-var oldSchool = "I am function-scoped";
+var oldSchool = "I am function-scoped"; // not recommended
 
 // 2. Primitive Data Types (Stack memory)
 const str = "Kamali";                  // String

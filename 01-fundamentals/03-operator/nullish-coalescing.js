@@ -1,3 +1,7 @@
+/*
+returns the right‑hand operand only if the left‑hand operand is null or undefined
+*/
+
 let username = null;
 let defaultName = username ?? "Guest";
 
